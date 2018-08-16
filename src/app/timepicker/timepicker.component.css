@@ -1,22 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-
 .text-center {
   text-align: center !important;
-}
-
-.btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-
-a:not([href]):not([tabindex]),
-a:not([href]):not([tabindex]):focus,
-a:not([href]):not([tabindex]):hover {
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none;
 }
 
 .btn-link {
