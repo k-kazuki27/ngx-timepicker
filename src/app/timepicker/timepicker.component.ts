@@ -149,6 +149,7 @@ export class TimepickerComponent
     private _store: TimepickerStore,
     private _timepickerActions: TimepickerActions
   ) {
+    // デフォルト設定
     Object.assign(this, _config);
 
     this.timepickerSub = _store
